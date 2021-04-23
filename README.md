@@ -1,1 +1,1 @@
-# Web-Practice
+# 웹개발 연습하기
