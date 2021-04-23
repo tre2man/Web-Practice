@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(166, 198, 185);
+}
+
+header{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header_list > li{
+    text-align: center;
+    line-height: 30px;
+    margin:5px;
+    width:100px;
+    height:30px;
+    background: rgb(143, 187, 198);
+    box-shadow: 2px 2px 2px;
+}
+
+section{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* index.html */
+
+.index_section{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+section > img{
+    margin: 5px;
+    max-width:auto;
+}
+
+.my_profile > ul{
+    display: inline-flex;
+    padding: 5px;
+}
+
+/* 줄 간격의 높이와 div의 높이를 같이하면 글자는 line-height의 가운데 위치 */
+.my_profile > ul > li{
+    line-height: 150px;
+    margin:5px;
+    width:150px;
+    height:150px;
+    background: rgb(143, 187, 198);
+    box-shadow: 2px 2px 2px;
+}
+
+.section_contents > p{
+    margin: 1px;
+    font-size: 15px;
+}
+
+
+/* aboutme.html */
+
+.aboutme_section > div{
+    border: 20px;
+    margin: 20px;
+}
+
+
+/* photo.html */
+
+.photo_section{
+    padding: 10px;
+}

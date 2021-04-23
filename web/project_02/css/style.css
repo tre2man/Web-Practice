@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #243344;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.main_logo{
+    align-items: center;
+    padding: 8px 12px;
+    font-size: 20px;
+}
+
+.fa-accusoft{
+    color:rgb(255, 153, 0);
+}
+
+.main_menu > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.main_menu > ul > li{
+    display: flex;
+    margin: 8px 12px;
+}
