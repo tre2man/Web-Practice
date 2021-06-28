@@ -1,0 +1,32 @@
+/* universal */
+* {
+    color: green;
+}
+
+/* type */
+li {
+    color: blue;
+}
+
+/* id */
+#special {
+    color: pink;
+}
+
+/* class */
+.red {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+/* hover */
+button:hover {
+    color: red;
+    background: beige;
+}
+
+/* property */
+a[herf^="naver.com"] {
+    color: purple;
+}
